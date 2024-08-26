@@ -1,66 +1,122 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Halaman Iklan</title>
+    <title>Website dengan Banyak Iklan</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
         }
-        .iklan {
-            width: 300px;
-            border: 1px solid #ddd;
-            padding: 10px;
-            margin: 10px;
-            display: inline-block;
-            vertical-align: top;
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
         }
-        .iklan img {
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .main-content {
+            width: 60%;
+            margin-right: 20px;
+        }
+
+        .sidebar {
+            width: 30%;
+        }
+
+        .ad {
             width: 100%;
-            height: auto;
+            height: 200px;
+            background-color: #f0f0f0;
+            margin: 15px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #ccc;
+            text-align: center;
         }
-        .iklan p {
-            font-size: 14px;
-            margin-top: 10px;
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .content-block {
+            margin-bottom: 20px;
         }
     </style>
 </head>
 <body>
-    <h1>Berbagai Iklan Menarik</h1>
-    
-    <div class="iklan">
-        <img src="https://via.placeholder.com/300x200" alt="Iklan 1">
-        <h2>Produk Terbaik 1</h2>
-        <p>Dapatkan produk terbaik dengan harga spesial!</p>
+    <header>
+        <h1>Website dengan Banyak Iklan</h1>
+    </header>
+
+    <div class="container">
+        <div class="main-content">
+            <!-- Iklan di antara konten -->
+            <div class="ca-app-pub-7515032846561636/6445202772">
+                <p>Iklan 1 (728x90)</p>
+            </div>
+
+            <div class="content-block">
+                <h2>Konten Utama</h2>
+                <p>Ini adalah konten utama situs Anda. Di sini, Anda bisa menulis artikel atau menambahkan konten lain yang Anda inginkan.</p>
+            </div>
+
+            <!-- Iklan di antara konten -->
+            <div class="ca-app-pub-7515032846561636/6445202772">
+                <p>Iklan 2 (300x250)</p>
+            </div>
+
+            <div class="content-block">
+                <h2>Konten Tambahan</h2>
+                <p>Konten tambahan dapat berisi lebih banyak informasi atau artikel yang relevan dengan topik utama.</p>
+            </div>
+
+            <!-- Iklan di antara konten -->
+            <div class="ca-app-pub-7515032846561636/6445202772">
+                <p>Iklan 3 (160x600)</p>
+            </div>
+        </div>
+
+        <!-- Sidebar dengan iklan -->
+        <div class="sidebar">
+            <div class="ca-app-pub-7515032846561636/6445202772">
+                <p>Iklan 4 (300x600)</p>
+            </div>
+
+            <div class="ca-app-pub-7515032846561636/6445202772">
+                <p>Iklan 5 (300x250)</p>
+            </div>
+
+            <div class="ca-app-pub-7515032846561636/6445202772">
+                <p>Iklan 6 (300x250)</p>
+            </div>
+        </div>
     </div>
 
-    <div class="iklan">
-        <img src="https://via.placeholder.com/300x200" alt="Iklan 2">
-        <h2>Produk Terbaik 2</h2>
-        <p>Penawaran khusus untuk produk ini!</p>
-    </div>
-
-    <div class="iklan">
-        <img src="https://via.placeholder.com/300x200" alt="Iklan 3">
-        <h2>Produk Terbaik 3</h2>
-        <p>Diskon besar-besaran untuk waktu terbatas!</p>
-    </div>
-
-    <div class="iklan">
-        <img src="https://via.placeholder.com/300x200" alt="Iklan 4">
-        <h2>Produk Terbaik 4</h2>
-        <p>Belanja sekarang dan dapatkan bonus!</p>
-    </div>
-
-    <div class="iklan">
-        <img src="https://via.placeholder.com/300x200" alt="Iklan 5">
-        <h2>Produk Terbaik 5</h2>
-        <p>Promo menarik untuk produk unggulan ini!</p>
-    </div>
-
-    <!-- Tambahkan lebih banyak iklan di sini -->
-
+    <!-- Footer dengan iklan -->
+    <footer>
+        <p>Hak Cipta &copy; p. Semua Hak Dilindungi.</p>
+        <div class="ca-app-pub-7515032846561636/6445202772">
+            <p>Iklan 7 (728x90)</p>
+        </div>
+    </footer>
 </body>
 </html>
